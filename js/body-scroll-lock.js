@@ -1,10 +1,3 @@
-
-
-// Older browsers don't support event options, feature detect it.
-
-// Adopted and modified solution from Bohdan Didukh (2017)
-// https://stackoverflow.com/questions/41594997/ios-10-safari-prevent-scrolling-behind-a-fixed-overlay-and-maintain-scroll-posi
-
 let hasPassiveEvents = false;
 if (typeof window !== 'undefined') {
   const passiveTestOptions = {
