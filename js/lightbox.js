@@ -9,7 +9,7 @@ class Lightbox {
   static init() {
     const links = Array.from(
       document.querySelectorAll(
-        'a[href$=".png"], a[href$=".PNG"], a[href$=".jfif"], a[href$=".jpg"], a[href$=".JPG"], a[href$=".svg"], a[href$=".jpeg"]'
+        'a[href$=".png"], a[href$=".jfif"], a[href$=".jpg"], a[href$=".webp"], a[href$=".svg"], a[href$=".jpeg"]'
       )
     );
     const gallery = links.map((link) => link.getAttribute("href"));
