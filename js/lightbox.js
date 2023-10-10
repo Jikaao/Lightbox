@@ -1,4 +1,4 @@
-import { enableBodyScroll, disableBodyScroll } from "./body-scroll-lock.js";
+import { enableBodyScroll, disableBodyScroll } from "./body-scroll-lock.js"; /* bloque le scroll lorsque la lightbox est ouverte*/
 
 /**
  * @property {HTMLElement} element
